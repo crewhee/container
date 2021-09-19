@@ -11,9 +11,13 @@
 class container {
 public:
     void push(int element);
+
     void remove(int element);
+
     int pick_random();
+
     container();
+
 private:
     std::mt19937_64 gen;
     std::unordered_multiset<int> set;

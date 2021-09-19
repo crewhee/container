@@ -27,8 +27,7 @@ void container::remove(int element) {
     if (it == this->set.end()) {
         std::cout << "No such element in container";
         return;
-    }
-    else
+    } else
         this->set.erase(it);
 }
 
